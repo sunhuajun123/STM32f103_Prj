@@ -2189,9 +2189,33 @@
       <name>$PROJ_DIR$\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c</name>
     </file>
   </group>
-  <file>
-    <name>$PROJ_DIR$\main.c</name>
-  </file>
+  <group>
+    <name>User</name>
+    <group>
+      <name>FOC_Core</name>
+      <group>
+        <name>APP</name>
+      </group>
+      <group>
+        <name>CORE</name>
+        <file>
+          <name>$PROJ_DIR$\..\USER\FOC\CORE\src\MC_Const.c</name>
+        </file>
+      </group>
+      <group>
+        <name>HW</name>
+        <file>
+          <name>$PROJ_DIR$\..\USER\FOC\HW\src\mc_hw_hall.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\USER\FOC\HW\src\mc_hw_pwm.c</name>
+        </file>
+      </group>
+    </group>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+    </file>
+  </group>
 </project>
 
 

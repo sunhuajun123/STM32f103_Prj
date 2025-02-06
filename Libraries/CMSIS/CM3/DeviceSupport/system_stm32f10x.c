@@ -1017,13 +1017,13 @@ static void SetSysClockTo72(void)
     FLASH->ACR |= (uint32_t)FLASH_ACR_LATENCY_2;    
 
  
-    /* HCLK = SYSCLK */
+    /* HCLK = SYSCLK （AHB不分频）*/
     RCC->CFGR |= (uint32_t)RCC_CFGR_HPRE_DIV1;
       
-    /* PCLK2 = HCLK */
+    /* PCLK2 = HCLK （APB2不分频）*/
     RCC->CFGR |= (uint32_t)RCC_CFGR_PPRE2_DIV1;
     
-    /* PCLK1 = HCLK */
+    /* PCLK1 = HCLK （APB1 2分频）*/
     RCC->CFGR |= (uint32_t)RCC_CFGR_PPRE1_DIV2;
 
 #ifdef STM32F10X_CL
