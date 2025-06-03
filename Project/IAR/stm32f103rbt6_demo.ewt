@@ -2201,6 +2201,9 @@
         <file>
           <name>$PROJ_DIR$\..\USER\FOC\CORE\src\MC_Const.c</name>
         </file>
+        <file>
+          <name>$PROJ_DIR$\..\USER\FOC\CORE\src\MC_Hall.c</name>
+        </file>
       </group>
       <group>
         <name>HW</name>
@@ -2212,8 +2215,23 @@
         </file>
       </group>
     </group>
+    <group>
+      <name>KEY</name>
+      <file>
+        <name>$PROJ_DIR$\..\USER\KEY\src\Key_drv.c</name>
+      </file>
+    </group>
+    <group>
+      <name>LCD12864</name>
+      <file>
+        <name>$PROJ_DIR$\..\USER\LCD12864\src\lcd12864_drv.c</name>
+      </file>
+    </group>
     <file>
       <name>$PROJ_DIR$\main.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stm32f10x_it.c</name>
     </file>
   </group>
 </project>

@@ -34,6 +34,16 @@
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
 
+typedef struct
+{
+    uint16_t TimeDelay_500us;
+    uint16_t TimeDelay_1ms;
+    uint16_t TimeDelay_10ms;
+    uint16_t TimeDelay_100ms;
+    uint16_t TimeDelay_500ms;
+}Task_Delay_Struct_;
+extern Task_Delay_Struct_ Task_Delay;   
+   
 void NMI_Handler(void);
 void HardFault_Handler(void);
 void MemManage_Handler(void);

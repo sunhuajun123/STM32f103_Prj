@@ -1,16 +1,20 @@
-"E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c"
+"D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c"
 -std=c99
 -ferror-limit=100
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR\..\..\Libraries\CMSIS\CM3\DeviceSupport
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\..\..\Libraries\CMSIS\CM3\DeviceSupport
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR\..\USER\FOC\HW\inc
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\..\USER\FOC\HW\inc
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR\..\USER\FOC\CORE\inc
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\..\USER\FOC\CORE\inc
+-I
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\..\USER\LCD12864\inc
+-I
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\..\USER\KEY\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CMSIS\Include
 -I
@@ -18,15 +22,19 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\inc\c
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Libraries\STM32F10x_StdPeriph_Driver\inc
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Libraries\STM32F10x_StdPeriph_Driver\inc
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Libraries\CMSIS\CM3\DeviceSupport
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Libraries\CMSIS\CM3\DeviceSupport
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\USER\FOC\HW\inc
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\USER\FOC\HW\inc
 -I
-E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\USER\FOC\CORE\inc
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\USER\FOC\CORE\inc
+-I
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\USER\LCD12864\inc
+-I
+D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\USER\KEY\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CMSIS\Include
 -DSTM32F10X_HD=1

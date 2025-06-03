@@ -1,8 +1,9 @@
 #ifndef __MC_HW_HALL_H__
 #define __MC_HW_HALL_H__
+#include "stm32f10x_tim.h"
+#include "MC_Type.h"
 
 #define HALL_TIMEOUT_TIME (60)//ms
-#define HALL_CKTIM 72000000
 
 #define MOTOR_HALL_PORT GPIOC
 
@@ -29,4 +30,7 @@
 #define S16_120_PHASE_SHIFT (65535/3)
 #define S16_60_PHASE_SHIFT (16384)
 
+extern void HallHardware_Init(void);
+extern uint8_t ReadHallState(_Hall_Obj *this);
+extern void Hall_Timer_Reset(TIM_TypeDef * TIMx);
 #endif

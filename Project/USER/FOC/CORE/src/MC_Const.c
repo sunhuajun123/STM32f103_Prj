@@ -17,3 +17,5 @@ _Hall_Obj gHall_Obj =
 	.bSpeedFIFO_Index = 0,
 	.bSpeed = 0,
 };
+
+_FOC_CtrProc pFOC_ctr_handle;

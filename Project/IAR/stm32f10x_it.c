@@ -131,8 +131,10 @@ void PendSV_Handler(void)
   * @param  None
   * @retval None
   */
+Task_Delay_Struct_ Task_Delay = {0};   
 void SysTick_Handler(void)
 {
+    Task_Delay.TimeDelay_500us = 1;
 }
 
 /******************************************************************************/

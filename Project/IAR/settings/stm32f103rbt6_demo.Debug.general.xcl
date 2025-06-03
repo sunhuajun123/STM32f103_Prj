@@ -1,12 +1,14 @@
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armsim2.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armjlink.dll" 
 
-"E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR\Debug\Exe\c.out" 
+"D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\Debug\Exe\c.out" 
 
 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
 
 --device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\config\flashloader\ST\FlashSTM32F10xxB.board" 
 
 
 
