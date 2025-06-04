@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\settings\stm32f103rbt6_demo.Debug.general.xcl" --backend -f "D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\settings\stm32f103rbt6_demo.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR\settings\stm32f103rbt6_demo.Debug.general.xcl" --backend -f "E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR\settings\stm32f103rbt6_demo.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\settings\stm32f103rbt6_demo.Debug.general.xcl" "--debug_file=%1" --backend -f "D:\harkinsun\电机开发板资料\code\STM32f103_Prj\Project\IAR\settings\stm32f103rbt6_demo.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR\settings\stm32f103rbt6_demo.Debug.general.xcl" "--debug_file=%1" --backend -f "E:\sunhuajun\project_file\2025\stm32f103rbt6 board\code_github\STM32f103_Prj\Project\IAR\settings\stm32f103rbt6_demo.Debug.driver.xcl" 
 
 @echo off 
 :end
